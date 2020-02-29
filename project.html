@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="nav sticky-top" style="background-color: slategrey">
+    <a class="navbar-brand" href="events.html">
+       <img src="Concordia%20Logo%20With%20Text.png" width="240" height="100" alt="">
+    </a>
+</nav>
+
+<div class="row">
+    <div class="container-fluid col-sm-6">
+        <h1>Project Info</h1>
+        <p>Here display the basic information from each project that is created and stored in the back end of the website</p>
+    </div>
+
+    <div class="container-fluid col-sm-6">
+        <div>
+            <h1>Project Inventory</h1>
+            <p>This is the inventory currently in use for this project: </p>
+            <table class="table table-bordered table-sm container-fluid">
+                <thead>
+                    <tr>
+                        <th>Part Name</th>
+                        <th>Purchase Store</th>
+                        <th>Date Purchased</th>
+                        <th>In Use</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                        <td>Doe</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button type="button" class="btn btn-primary btn-sm">Add an item from the inventory to the project</button>
+        </div>
+        <div>
+            <h1>Project Meetings</h1>
+            <p>Here is the latest meetings for this project</p>
+            <ul>
+                <li><a href="#">Meeting #1 Minutes</a></li>
+                <li><a href="#">Meeting #2 Minutes</a></li>
+                <li><a href="#">Meeting #3 Minutes</a></li>
+                <li><a href="#">Meeting #4 Minutes</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron text-center fixed-bottom" style="margin-bottom:0; background-color:black">
+    <p style="color:yellow">Concordia Engineering Games <br> Website By: Kayla Charky</p>
+</div>
+
+</body>
+</html>
